@@ -1,6 +1,7 @@
 {
-    "token": "",
+    "token": "OTEyNDMwMTAyODcxMTc5MzA1.G1BK5j.Q3v_GF6A7YXM91jv_76V_lJnnVUPP843a_gUZE",
     "author": "SirYavuz#0001",
+    "prefix": "!",
     "status": "idle",
     "activity": {
         "time": 30,
@@ -9,6 +10,57 @@
             "PLAYING": ["F1 22", "F1 21"],
             "WATCHING": ["F1", "F2", "F3"],
             "LISTENING": ["F1 Intro Music"]
+        }
+    },
+    "calendar": ["Baku Grand Prix"],
+    "scores": {
+        "f1": {
+            "teams": {
+                "redbull": {
+                    "name": "redbull",
+                    "label": "Oracle Redbull Racing",
+                    "color": "#ff0000",
+                    "desc": "Red Bull Racing, also simply known as Red Bull or RBR and competing as Oracle Red Bull Racing, is a Formula One racing team, racing under an Austrian licence and based in the United Kingdom.",
+                    "score": 359,
+                    "logo": "https://img.redbull.com/images/w_220/q_auto,f_auto/redbullcom/2022/2/9/uxgdknthvvsnfla76pii/oracle-red-bull-racing-logo",
+                    "source": "https://www.redbullracing.com/int-en/about",
+                    "drivers": ["Max Verstappen", "Sergio Perez"],
+                    "manager": "Christian Horner",
+                    "country": "Milton Keynes, United Kingdom",
+                    "wins": 82,
+                    "polepos": 77,
+                    "podiums": 220,
+                    "fastestlaps": 81,
+                    "racerchamps": 5,
+                    "teamchamps": 4
+                },
+                "mercedes": {
+                    "name": "mercedes",
+                    "label": "Mercedes-AMG Petronas F1 Team",
+                    "color": "#2abfb5",
+                    "desc": "Mercedes-Benz formerly competed in Grand Prix motor racing in the 1930s, when the Silver Arrows dominated the races alongside rivals Auto Union. Both teams were heavily funded by the Nazi regime, winning all European Grand Prix Championships after 1934, of which Rudolf Caracciola won three for Mercedes-Benz.",
+                    "score": 359,
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Mercedes-Benz_in_Formula_One_logo.svg/225px-Mercedes-Benz_in_Formula_One_logo.svg.png",
+                    "source": "https://www.mercedesamgf1.com/en/",
+                    "drivers": ["Lewis Hamilton", "George Russel"],
+                    "manager": "Totto Wolf",
+                    "country": "Brackley, United Kingdom",
+                    "wins": 115,
+                    "polepos": 127,
+                    "podiums": 271,
+                    "fastestlaps": 86,
+                    "racerchamps": 9,
+                    "teamchamps": 8
+                },
+                "Ferrari": 237,
+                "Mclaren": 81,
+                "Alpine": 81,
+                "Alfa Romeo": 51,
+                "Haas": 34,
+                "Alpha Tauri": 27,
+                "Aston Martin": 18,
+                "Williams": 3
+            }
         }
     }
 }
