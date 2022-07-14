@@ -1,0 +1,14 @@
+{
+    "token": "",
+    "author": "SirYavuz#0001",
+    "status": "idle",
+    "activity": {
+        "time": 30,
+        "types": {"0": "WATCHING", "1": "PLAYING", "2": "LISTENING"},
+        "filter": {
+            "PLAYING": ["F1 22", "F1 21"],
+            "WATCHING": ["F1", "F2", "F3"],
+            "LISTENING": ["F1 Intro Music"]
+        }
+    }
+}
