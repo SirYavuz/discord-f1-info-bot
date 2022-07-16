@@ -2,14 +2,26 @@
     "token": "OTEyNDMwMTAyODcxMTc5MzA1.G1BK5j.Q3v_GF6A7YXM91jv_76V_lJnnVUPP843a_gUZE",
     "author": "SirYavuz#0001",
     "prefix": "!",
+    "gif": {
+        "command": "gif",
+        "api": "Z41wfAyfQi33rnHtKi5Ib0kHl48XmW9f",
+        "tags": ["formula", "formula1", "formula-1-crash", "f1", "grandprix", "haas"],
+        "color": "#2abfb5"
+    },
+    
+    "warningChannel": {
+        "useThisChannel": "formula1",
+        "warningWrongChannel": "You cant use this command in this channel! \n Corrent channel is:",
+        "warningMessageColor": "#ff0000"
+    },
     "status": "idle",
     "activity": {
         "time": 30,
         "types": {"0": "WATCHING", "1": "PLAYING", "2": "LISTENING"},
         "filter": {
-            "PLAYING": ["F1 22", "F1 21"],
-            "WATCHING": ["F1", "F2", "F3"],
-            "LISTENING": ["F1 Intro Music"]
+            "PLAYING": ["F1 22", "F1 21", "DRS Button"],
+            "WATCHING": ["F1", "F2", "F3", "Wheels"],
+            "LISTENING": ["F1 Intro Music", "Engine Sounds", "Pit Stop Sounds"]
         }
     },
     "calendar": ["Baku Grand Prix"],

@@ -1,13 +1,18 @@
 const { Client, Intents, MessageEmbed } = require('discord.js');
 
-module.exports = (client, config) => {
+module.exports = (client, config, sendWarningDM) => {
     client.on("messageCreate", message => {
         if (message.author.bot) return;
-        let data = [];
+        const channelData = message.guild.channels.cache.get(message.channelId); 
         if (config.scores.f1.teams[message.content.toLowerCase().slice(1)] == undefined) return;
+        if (channelData.name != config.warningChannel.useThisChannel) {
+            sendWarningDM(client, config, message);
+            return;
+        }
         if (message.content.toLowerCase() == config.prefix + "" + config.scores.f1.teams[message.content.toLowerCase().slice(1)].name) {
             const usingTeamCommand = message.content.toLowerCase();
             const messageTeamName = usingTeamCommand.substr(1);
+            let data = [];
             data = config.scores.f1.teams[messageTeamName];
             
             const response = new MessageEmbed()
