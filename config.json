@@ -8,7 +8,6 @@
         "tags": ["formula", "formula1", "formula-1-crash", "f1", "grandprix", "haas"],
         "color": "#2abfb5"
     },
-    
     "warningChannel": {
         "useThisChannel": "formula1",
         "warningWrongChannel": "You cant use this command in this channel! \n Corrent channel is:",
@@ -24,7 +23,12 @@
             "LISTENING": ["F1 Intro Music", "Engine Sounds", "Pit Stop Sounds"]
         }
     },
-    "calendar": ["Baku Grand Prix"],
+    "calendar": {
+        "embedTitle": "Formula 1 2022 Season Calendar",
+        "embedColor": "#ff0000",
+        "command": "calendar",
+        "allSeasonImage": "https://ryanbabel.com/wp-content/uploads/2021/10/image-1.jpg"
+    },
     "scores": {
         "f1": {
             "teams": {
