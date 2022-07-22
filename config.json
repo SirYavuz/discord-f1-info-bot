@@ -76,6 +76,36 @@
                 "Alpha Tauri": 27,
                 "Aston Martin": 18,
                 "Williams": 3
+            },
+            "drivers":{
+                "Max Verstappen": {
+                    "name": "Max Verstappen",
+                    "team": "redbull",
+                    "country": "Netherlands",
+                    "teamlogo": "https://img.redbull.com/images/w_220/q_auto,f_auto/redbullcom/2022/2/9/uxgdknthvvsnfla76pii/oracle-red-bull-racing-logo",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Mercedes-Benz_in_Formula_One_logo.svg/225px-Mercedes-Benz_in_Formula_One_logo.svg.png",
+                    "source": "https://www.mercedesamgf1.com/en/",
+                    "score": 359,
+                    "wins": 82,
+                    "polepos": 77,
+                    "podiums": 220,
+                    "fastestlaps": 81,
+                    "champs": 1
+                },
+                "Lewis Hamilton": {
+                    "name": "Lewis Hamilton",
+                    "team": "redbull",
+                    "country": "England",
+                    "teamlogo": "https://img.redbull.com/images/w_220/q_auto,f_auto/redbullcom/2022/2/9/uxgdknthvvsnfla76pii/oracle-red-bull-racing-logo",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Mercedes-Benz_in_Formula_One_logo.svg/225px-Mercedes-Benz_in_Formula_One_logo.svg.png",
+                    "source": "https://www.mercedesamgf1.com/en/",
+                    "score": 359,
+                    "wins": 115,
+                    "polepos": 127,
+                    "podiums": 271,
+                    "fastestlaps": 86,
+                    "champs": 9
+                }
             }
         }
     }

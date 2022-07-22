@@ -14,7 +14,7 @@ client.on('ready', () => {
     teams(client, config, sendWarningDM);
     giphyAPI(client, config, sendWarningDM);
     calendar(client, config, sendWarningDM);
-    console.log("Total guild count: " + chalk.green( client.guilds.cache.size));
+    console.log("Total guild count: " + chalk.green( client.guilds.cache.size) + " servers");
 });
 
 client.login(config.token);
