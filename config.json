@@ -79,12 +79,12 @@
                     "drivers": ["Charles Leclerc", "Carlos Sainz"],
                     "manager": "Mattia Binotto",
                     "country": "Maranello, Italy",
-                    "wins": ,
-                    "polepos": ,
-                    "podiums": ,
+                    "wins": " ",
+                    "polepos": " ",
+                    "podiums": " ",
                     "fastestlaps": 257,
-                    "racerchamps": ,
-                    "teamchamps": 
+                    "racerchamps": " ",
+                    "teamchamps": " "
                 },
                 "Mclaren": 81,
                 "Alpine": 81,
